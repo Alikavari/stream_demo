@@ -1,5 +1,6 @@
 services:
   stream-demo:
+    container_name: 'stream-demo'
     build: .
     ports:
       - "8000:8000"
